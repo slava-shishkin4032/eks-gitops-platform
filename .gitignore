@@ -1,0 +1,34 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Kubernetes / Helm generated files
+*.kubeconfig
+charts/
+
+# Logs and temporary files
+*.log
+tmp/
